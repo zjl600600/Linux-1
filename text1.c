@@ -23,24 +23,25 @@ int p(char a[][1000],int n)
 int main()
 {
 	int n;
-	printf("Please enter n strings");
+	printf("Please enter n strings\nn=\n");
+	scanf("%d",&n);
 	char a[n][1000];
 	for(int i=0;i<n;i++)
 	{
 		scanf("%s",a[i]);
 
 	}
-	printf("Before sorting.");
+	printf("Before sorting.\n");
 	for(int i=0;i<n;i++)
 	{
-		printf("%s",a[i]);
+		printf("%s",a[i]\n);
 	}
 
-	printf("After sorting.");
+	printf("After sorting.\n");
 	p(a,n);
 	for(int i=0;i<n;i++)
 	{
-	  printf("%s",a[i]);
+	  printf("%s",a[i])\n;
 	}
 	return 0;
 }
